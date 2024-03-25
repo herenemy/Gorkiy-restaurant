@@ -1,7 +1,7 @@
 'use strict';
 const menuWrapper = document.querySelectorAll('.menu__wrapper');
 
-getResource('menu.json').then(data => createCards(data));
+getResource('menu.min.json').then(data => createCards(data));
 
 async function getResource(url) {
   const data = await fetch(url);
