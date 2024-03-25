@@ -1,0 +1,115 @@
+.btn {
+    text-align: center;
+    outline: none; 
+    border: none;
+    border-radius: 10px;
+    background-color: #171717;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.btn_short {
+    padding: 15px 27px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn__order_intro {
+    padding: 25px 100px;
+    font-family: var(--font-noto-display);
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn__order_intro:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_active {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_long {
+    font-family: var(--font-nasalization);
+    width: 500px;
+    height: 60px;
+    font-size: 25px;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #fff;
+    /* transition: all .2s ease; */
+}
+
+.btn_long:hover {
+    background-color: #000;
+    color: #fff;
+} 
+
+.btn_slider {
+    display: inline-block;
+    margin-bottom: 35px;
+    cursor: auto;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_footer:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -210%);
+    transition: .2s ease;
+}
+
+.btn-scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    cursor: pointer;
+    outline: none;
+    backdrop-filter: blur(12px);
+    border: none;
+    border-radius: 100px;
+    opacity: 0.2;
+    z-index: 10;
+}
+
+.btn-scroll_active {
+    display: block;
+}
+
+.btn_about:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+@media (hover: hover) {
+    button:hover {
+        background-color: #fff;
+    }
+}
+
+@media (hover: none) {
+    button:active {
+        background-color: #fff;
+    }
+}

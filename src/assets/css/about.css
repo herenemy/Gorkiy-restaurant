@@ -1,0 +1,33 @@
+.about__row { 
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   text-align: center;
+   width: 100%;
+ }
+
+.about__title {
+   font-family: var(--font-cormorant);
+   margin-bottom: 25px;
+   font-size: 30px;
+   text-transform: uppercase;
+ }
+
+.about__col-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.about__col p {
+   font-size: 22px;
+   font-weight: 100;
+   margin-bottom: 40px; 
+   width: 100%;
+ }
+
+.about__col video {
+    height: 600px;
+    border-radius: 10px;
+}

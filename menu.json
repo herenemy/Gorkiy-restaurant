@@ -1,0 +1,716 @@
+{
+  "food": [
+    {
+      "name": "Жареный рис с цыпленком",
+      "price": "350",
+      "portionType": "gr",
+      "portion": "350",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Паста карбонара",
+      "price": "330",
+      "portionType": "gr",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Паста с лососем и песто",
+      "price": "450",
+      "portionType": "gr",
+      "portion": "300",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Мак энд чиз с пармезано",
+      "price": "330",
+      "portionType": "gr",
+      "portion": "300",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Стейк из форели с бэби картофелем и стручковой фасолью",
+      "price": "590",
+      "portionType": "gr",
+      "portion": "320",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Медальон из свинины с картофельным пюре и сливочно-грибным соусом",
+      "price": "450",
+      "portionType": "gr",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Боул с лососем и авокадо",
+      "price": "410",
+      "portionType": "gr",
+      "portion": "310",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "foodWithHands": [
+    {
+      "name": "Брускетта с ростбифом",
+      "price": "260",
+      "portionType": "gr",
+      "portion": "180",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Брускетта с лососем",
+      "price": "340",
+      "portionType": "gr",
+      "portion": "180",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Хот - дог BBQ",
+      "price": "220",
+      "portionType": "gr",
+      "portion": "300",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Хот - дог классический",
+      "price": "220",
+      "portionType": "gr",
+      "portion": "300",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "salads": [
+    {
+      "name": "Салат с ростбифом",
+      "price": "290",
+      "portionType": "gr",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Салат с лососем",
+      "price": "360",
+      "portionType": "gr",
+      "portion": "210",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Цезарь с курицей",
+      "price": "290",
+      "portionType": "gr",
+      "portion": "175",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Цезарь с креветками",
+      "price": "350",
+      "portionType": "gr",
+      "portion": "175",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "soups": [
+    {
+      "name": "Том Ям",
+      "price": "390",
+      "portionType": "ml",
+      "portion": "380",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Рамен с говядиной",
+      "price": "360",
+      "portionType": "ml",
+      "portion": "380",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Сырные палочки с брусничным соусом",
+      "price": "220",
+      "portionType": "gr",
+      "portion": "180",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Фри с топингами",
+      "price": "150",
+      "portionType": "gr",
+      "portion": "180",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Гренки чесночные",
+      "price": "150",
+      "portionType": "gr",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Креветки в кляре",
+      "price": "300",
+      "portionType": "gr",
+      "portion": "160",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "dessert": [
+    {
+      "name": "Шоколадный фонтан",
+      "price": "240",
+      "portionType": "gr",
+      "portion": "130",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Чизкейк Сан - Сабастьян",
+      "price": "220",
+      "portionType": "gr",
+      "portion": "115",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Медовик",
+      "price": "200",
+      "portionType": "gr",
+      "portion": "130",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "tea": [
+    {
+      "name": "Ассам",
+      "price": "200",
+      "portionType": "ml",
+      "portion": "900",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Сенча",
+      "price": "200",
+      "portionType": "ml",
+      "portion": "900",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Молочный улун",
+      "price": "200",
+      "portionType": "ml",
+      "portion": "900",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "authorTea": [
+    {
+      "name": "Тропический с облепихой",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "900",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Улун - Помело - Ромашка",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "900",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Инжир - Чабрец",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "900",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "lemonade": [
+    {
+      "name": "Вишня - Шисо",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Черемуха - Личи",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Манго - Маракуйя",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Малина - Пан",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "coffee": [
+    {
+      "name": "Эспрессо",
+      "price": "80",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Американо",
+      "price": "100",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Капучино",
+      "price": "120",
+      "portionType": "ml",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Раф карамельный",
+      "price": "180",
+      "portionType": "ml",
+      "portion": "220",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "soft": [
+    {
+      "name": "Вода газ, не газ",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "500",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Рич кола",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "330",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Сок в ассортименте",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Лапочка в ассортименте",
+      "price": "200",
+      "portionType": "ml",
+      "portion": "330",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Энергетик",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "500",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "beer": [
+    {
+      "name": "Stella Artois",
+      "price": "200",
+      "portionType": "ml",
+      "portion": "500",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Hoegaarden",
+      "price": "200",
+      "portionType": "ml",
+      "portion": "500",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Corona Extra",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "330",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Jaws",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "500",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "redWine": [
+    {
+      "name": "Пино Нуар",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Сира",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Гарнача",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "whiteWine": [
+    {
+      "name": "Шардоне",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Виньо Верде",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Совиньон Блан",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Рислинг",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Гевюрцтраминер",
+      "price": "250",
+      "priceLitre": "2200",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "champagne": [
+    {
+      "name": "Эндемы Рислинг",
+      "price": "200",
+      "priceLitre": "1350",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Просекко",
+      "price": "250",
+      "priceLitre": "1500",
+      "portionType": "ml",
+      "portion": "125",
+      "portionLitre": "750",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "strong": [
+    {
+      "name": "Клубника - Паприка - Клён",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Сливочная Лимончелла",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Яблоко - Карамель",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Томатная",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Груша - Попкорн",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Сет из 5-ти настоек",
+      "price": "600",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "vodka": [
+    {
+      "name": "Пять Озёр",
+      "price": "150",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Белуга",
+      "price": "220",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Чистые Росы",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "gin": [
+    {
+      "name": "Beefeater London Dry Gin",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Bombay Sapphire",
+      "price": "500",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "tequila": [
+    {
+      "name": "Espolon Blanco",
+      "price": "300",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "rum": [
+    {
+      "name": "Havana club",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "liqueur": [
+    {
+      "name": "Jagermeister",
+      "price": "300",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Beluga Hunting",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "WhiskeyBourbon": [
+    {
+      "name": "William Lawsons",
+      "price": "250",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Jim Beam",
+      "price": "300",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Jameson",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Chivas regal 12",
+      "price": "650",
+      "portionType": "ml",
+      "portion": "50",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "coctail": [
+    {
+      "name": "Негрони",
+      "price": "350",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Апероль - Шприц",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Джин - Тоник",
+      "price": "300",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Виски - Кола",
+      "price": "300",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Маргарита",
+      "price": "450",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "name": "Белый Русский",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ],
+  "fashionCoctail": [
+    {
+      "title": "#1",
+      "name": "Ром выдержанный, кордиал черемуха - личи, белуга хантинг, содовая",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#2",
+      "name": "Джин, розовое вино, аперетиво, кордиал фуджи - сакура, белок",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#3",
+      "name": "Яблочная настойка, белуга хантинг, сок лимона, водка, белок",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#4",
+      "name": "Настойка клубника - паприка, кордиал ладан - кокос, водка, сок лимона",
+      "price": "450",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#5",
+      "name": "Джин, кордиал яблоко - саган, яблочный сок, сок лимона, игристое, содовая",
+      "price": "450",
+      "portionType": "ml",
+      "portion": "300",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#6",
+      "name": "Ром выдержанный, трипл сек, кордиал вишня - шисо, кордиал ладан - кокос",
+      "price": "450",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#7",
+      "name": "Виски, кордиал помело - ромашка, белуга хантинг",
+      "price": "450",
+      "portionType": "ml",
+      "portion": "150",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#8",
+      "name": "Водка, трипл сек, кордиал апельсин ваниль, апельсиновый сок",
+      "price": "400",
+      "portionType": "ml",
+      "portion": "200",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    },
+    {
+      "title": "#9",
+      "name": "Клубничный ликёр, водка, настойка сливочное Лимончелло, трипл сек, молоко, кордиал малина - пан",
+      "price": "450",
+      "portionType": "ml",
+      "portion": "250",
+      "photo": "src/assets/img/album/food/food-10.jpg"
+    }
+  ]
+}

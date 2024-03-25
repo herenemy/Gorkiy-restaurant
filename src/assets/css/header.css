@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    padding: 20px 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+    transition: 1s ease-in-out;
+}
+
+.nav_sticky {
+    position: fixed;
+}
+
+.nav__items {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.nav__item {
+    color: #fff;
+}
+
+.nav__item-logo {
+	font-family: var(--font-noto-display);
+    font-size: 25px;
+}
+
+.nav__link {
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.nav__link:hover {
+    opacity: 0.6;
+}

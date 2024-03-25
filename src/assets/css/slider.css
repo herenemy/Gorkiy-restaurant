@@ -1,0 +1,88 @@
+.slider__wrapper {
+    padding-top: 130px;
+}
+
+.slider__title-block {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.slider__title {
+    font-family: var(--font-noto-display);
+    font-size: 60px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.slider__title-text {
+    z-index: 1;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.swiper {
+    height: 450px;
+}
+
+.swiper-slide {
+    height: 400px;
+}
+
+.swiper-pagination-bullet {
+    bottom: 8px !important;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    /* opacity: 1; */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.slider__content img {
+    margin-bottom: 20px;
+}
+
+.slider__content {
+    padding: 70px;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    /* text-align: center; */
+    /* backdrop-filter: blur(2px); */
+}
+
+.slider-bg {
+    background: url(../img/background/smoke-bg-2.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 100%;
+}
+
+.slider__suptitle {
+    margin-bottom: 35px;
+    width: 72%;
+    font-family: var(--font-noto-display);
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.slider__subtitle {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.slider__description {
+    font-size: 26px;
+}
+
+

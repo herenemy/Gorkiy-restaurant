@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/assets/img/album/logo/gorkiy-logo.png">
+    <title>Gorkiy</title>
+
+    <!-- fonts -->
+    <!-- Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- Noto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Cormorant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/assets/css/reset.css">
+    <link rel="stylesheet" href="src/assets/css/btn.css">
+    <link rel="stylesheet" href="src/assets/css/index.css">
+    <link rel="stylesheet" href="src/assets/css/header.css">
+    <link rel="stylesheet" href="src/assets/css/intro.css">
+    <link rel="stylesheet" href="src/assets/css/about.css">
+    <link rel="stylesheet" href="src/assets/css/menu.css">
+    <link rel="stylesheet" href="src/assets/css/reservation.css">
+    <link rel="stylesheet" href="src/assets/css/slider.css">
+    <link rel="stylesheet" href="src/assets/css/album.css">
+    <link rel="stylesheet" href="src/assets/css/footer.css">
+    <link rel="stylesheet" href="src/assets/css/burger.css">
+    <link rel="stylesheet" href="src/assets/css/popup.css">
+    <link rel="stylesheet" href="src/assets/css/responsive.css">
+
+
+</head>
+
+
+<body>
+    <div class="overlay"></div>
+    <header class="header nav_sticky">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a href="#section--1" class="nav__link">о нас</a></li>
+                        <li class="nav__item"><a href="#section--2" class="nav__link">меню</a></li>
+                        <li class="nav__item"><a href="#section--3" class="nav__link">специальные предложения</a></li>
+                        <li class="nav__item"><a href="#section--4" class="nav__link">галерея</a></li>
+                        <li class="nav__item"><a href="#section--5" class="nav__link">наши контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="burger-container">
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="burger-nav__inner">
+        <ul>
+            <li class="nav__item_burger"><a href="#section--0" class="nav__link">главная</a></li>
+            <li class="nav__item_burger"><a href="#section--1" class="nav__link">о нас</a></li>
+            <li class="nav__item_burger"><a href="#section--2" class="nav__link">меню</a></li>
+            <li class="nav__item_burger"><a href="#section--3" class="nav__link">специальные предложения</a></li>
+            <li class="nav__item_burger"><a href="https://wa.me/+905539321774" class="nav__link">забронировать столик</a></li>
+        </ul>
+    </div>
+    <main>
+        <section id="section--0" class="section section_intro">
+            <div class="intro__section-bg">
+            <div class="container">
+                <div class="intro__inner">
+                        <div class="order-btn__container">
+                            <button class="btn btn__order_intro">забронировать стол</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--1" class="section section_about appearance-section">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__row">
+                            <div class="about__col about__col-text">
+                                <h4 class="about__title">КОКТЕЙЛИ | ЕДА | ЛЮДИ</h4>
+                                <p class="about__subtitle">
+                                  Кальяны, вкусные блюда, обширное барное меню и, конечно же, атмосфера  Все это позволяет нам заверить вас в том, что вы испытаете гастрономическое наслаждение при посещении нашего заведения</p>
+                                  <a href="https://2gis.ru/kurgan/search/%D0%B3%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9/firm/70000001083415355/65.34347%2C55.4362" target="_blank" class="btn btn_short btn_about">Посмотреть на карте</a>
+                            </div>
+                        <div class="about__col about-video">
+                            <video autoplay muted loop src="src/assets/videos/interior.MOV"></video>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--2" class="section appearance-section section_menu">
+            <div class="container">
+                <div class="menu__inner">
+                    <div class="menu__header">
+                        <h3 class="section__title section__title_menu">Меню</h3>
+                        <div class="menu-container">
+                            <div class="menu-categories">
+                                <div id="btnMenuKitchen" class="btn btn_menu btn_short btn-tab btn_active" data-tab="0">Кухня</div>
+                                <div id="btnMenuNonAlcho" class="btn btn_menu btn_short btn-tab" data-tab="1">Безалкогольные напитки</div>
+                                <div id="btnMenuAlcho" class="btn btn_menu btn_short btn-tab" data-tab="2">Алкогольные напитки</div>
+                                <div id="btnMenuCoctails" class="btn btn_menu btn_short btn-tab" data-tab="3">Коктейли</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="liner"></div>
+                <div id="kitchenMenu" class="menu menu_active menu__item menu__item--0"  data-menu="0">
+                    <div class="menu__inner">
+                        <h3 class="menu-info__title">Нормально поесть</h3>
+                        <ul class="menu__wrapper" data-menu="food">
+                        </ul>
+                        <h3 class="menu-info__title">Нормально поесть, но руками</h3>
+                        <ul class="menu__wrapper" data-menu="foodWithHands">
+                        </ul>
+                        <h3 class="menu-info__title">Модные салаты</h3>
+                        <ul class="menu__wrapper" data-menu="salads">
+                        </ul>
+                        <h3 class="menu-info__title">Жидкое</h3>
+                        <ul class="menu__wrapper" data-menu="soups">
+                        </ul>
+                        <h3 class="menu-info__title">Закуски</h3>
+                        <ul class="menu__wrapper" data-menu="appetizers">
+                        </ul>
+                        <h3 class="menu-info__title">Десерты</h3>
+                        <ul class="menu__wrapper" data-menu="dessert">
+                        </ul>
+                    </div>
+                </div>
+                <div id="nonAlchoMenu" class="menu menu__item menu__item--1" data-menu="1">
+                    <div class="menu__inner">
+                        <h4 class="menu-info__title">Чаи</h4>
+                        <ul class="menu__wrapper" data-menu="tea">
+                        </ul>
+                        <h4 class="menu-info__title">Авторские чаи</h4>
+                        <ul class="menu__wrapper" data-menu="authorTea">
+                        </ul>
+                        <h4 class="menu-info__title">Лимонады</h4>
+                        <ul class="menu__wrapper" data-menu="lemonade">
+                        </ul>
+                        <h4 class="menu-info__title">Кофе</h4>
+                        <ul class="menu__wrapper" data-menu="coffee">
+                        </ul>
+                        <h4 class="menu-info__title">Софт</h4>
+                        <ul class="menu__wrapper" data-menu="soft">
+                        </ul>
+                    </div>
+                </div>
+                <div id="alchoMenu" class="menu menu__item menu__item--2" data-menu="2">
+                    <div class="menu__inner">
+                        <h4 class="menu-info__title">Пиво в бутылке</h4>
+                        <ul class="menu__wrapper" data-menu="beer">
+                        </ul>
+                        <h4 class="menu-info__title">Красное вино</h4>
+                        <ul class="menu__wrapper" data-menu="redWine">
+                        </ul>
+                        <h4 class="menu-info__title">Белое вино</h4>
+                        <ul class="menu__wrapper" data-menu="whiteWine">
+                        </ul>
+                        <h4 class="menu-info__title">Игривое Вино</h4>
+                        <ul class="menu__wrapper" data-menu="champagne">
+                        </ul>
+                        <h4 class="menu-info__title">Крепач</h4>
+                        <ul class="menu__wrapper" data-menu="strong">
+                        </ul>
+                        <h4 class="menu-info__title">Водка</h4>
+                        <ul class="menu__wrapper" data-menu="vodka">
+                        </ul>
+                        <h4 class="menu-info__title">Джин</h4>
+                        <ul class="menu__wrapper" data-menu="gin">
+                        </ul>
+                        <h4 class="menu-info__title">Текила</h4>
+                        <ul class="menu__wrapper" data-menu="tequila">
+                        </ul>
+                        <h4 class="menu-info__title">Ром</h4>
+                        <ul class="menu__wrapper" data-menu="rum">
+                        </ul>
+                        <h4 class="menu-info__title">Ликёры</h4>
+                        <ul class="menu__wrapper" data-menu="liqueur">
+                        </ul>
+                        <h4 class="menu-info__title">Виски и Бурбон</h4>
+                        <ul class="menu__wrapper" data-menu="WhiskeyBourbon">
+                        </ul>
+                    </div>
+                </div>
+                <div id="coctailsMenu" class="menu menu__item menu__item--3" data-menu="3">
+                    <div class="menu__inner">
+                        <h4 class="menu-info__title">Модные</h4>
+                        <ul class="menu__wrapper" data-menu="fashionCoctail">
+                        </ul>
+                        <h4 class="menu-info__title">Классические</h4>
+                        <ul class="menu__wrapper menu__wrapper-coctal" data-menu="coctail">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--3" class="section">
+            <div class="container">
+                <div class="slider__title-block">
+                    <h2 class="section__title section__title_slider">Специальные предложения</h2>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider-bg">
+                                <div class="slider__content">
+                                    <!-- <img src="src/assets/icons/slider/icon-cocktails-96.png" alt=""> -->
+                                    <div class="slider__label btn btn_short btn_slider">акции</div>
+                                    <p class="slider__suptitle">Попробуйте Русскую кухню с 20% скидкой</p>
+                                    <!-- <p class="slider__subtitle">в подарок</p> -->
+                                    <p class="slider__description">Отведуйте настоящие вкусы России с 20% скидкой на всё меню а-ля карт! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-bg">
+                                <div class="slider__content">
+                                    <!-- <img src="src/assets/icons/slider/icon-cocktails-96.png" alt=""> -->
+                                    <div class="slider__label btn btn_short btn_slider">акции</div>
+                                    <p class="slider__suptitle">Попробуйте Русскую кухню с 20% скидкой</p>
+                                    <!-- <p class="slider__subtitle">в подарок</p> -->
+                                    <p class="slider__description">Отведуйте настоящие вкусы России с 20% скидкой на всё меню а-ля карт! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-bg">
+                                <div class="slider__content">
+                                    <!-- <img src="src/assets/icons/slider/icon-cocktails-96.png" alt=""> -->
+                                    <div class="slider__label btn btn_short btn_slider">акции</div>
+                                    <p class="slider__suptitle">Попробуйте Русскую кухню с 20% скидкой</p>
+                                    <!-- <p class="slider__subtitle">в подарок</p> -->
+                                    <p class="slider__description">Отведуйте настоящие вкусы России с 20% скидкой на всё меню а-ля карт! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-bg">
+                                <div class="slider__content">
+                                    <!-- <img src="src/assets/icons/slider/icon-cocktails-96.png" alt=""> -->
+                                    <div class="slider__label btn btn_short btn_slider">акции</div>
+                                    <p class="slider__suptitle">Попробуйте Русскую кухню с 20% скидкой</p>
+                                    <!-- <p class="slider__subtitle">в подарок</p> -->
+                                    <p class="slider__description">Отведуйте настоящие вкусы России с 20% скидкой на всё меню а-ля карт! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-bg">
+                                <div class="slider__content">
+                                    <!-- <img src="src/assets/icons/slider/icon-cocktails-96.png" alt=""> -->
+                                    <div class="slider__label btn btn_short btn_slider">акции</div>
+                                    <p class="slider__suptitle">Попробуйте Русскую кухню с 20% скидкой</p>
+                                    <!-- <p class="slider__subtitle">в подарок</p> -->
+                                    <p class="slider__description">Отведуйте настоящие вкусы России с 20% скидкой на всё меню а-ля карт! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="slider-bg">
+                                <div class="slider__content">
+                                    <!-- <img src="src/assets/icons/slider/icon-cocktails-96.png" alt=""> -->
+                                    <div class="slider__label btn btn_short btn_slider">акции</div>
+                                    <p class="slider__suptitle">Попробуйте Русскую кухню с 20% скидкой</p>
+                                    <!-- <p class="slider__subtitle">в подарок</p> -->
+                                    <p class="slider__description">Отведуйте настоящие вкусы России с 20% скидкой на всё меню а-ля карт! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section id="section--4" class="section appearance-section section_album">
+            <div class="album__inner">
+                <div class="grid__wrapper">
+                    <div id="grid-1" class="album__grid-img" data-src="../img/album/food/food-11.jpg"></div>
+                    <div id="grid-2" class="album__grid-img" data-src="../img/album/food/food-2.jpg"></div>
+                    <div id="grid-3" class="album__grid-img" data-src="../img/album/interior/interior-2.jpg"></div>
+                    <div id="grid-4" class="album__grid-img" data-src="../img/album/interior/interior-3.jpg"></div>
+                    <div id="grid-5" class="album__grid-img" data-src="../img/album/coctails/coctail-3.jpg"></div>
+                    <div id="grid-6" class="album__grid-img" data-src="../img/album/interior/interior-4.jpg"></div>
+                    <div id="grid-7" class="album__grid-img" data-src="../img/album/food/food-30.jpg"></div>
+                </div>
+                <div id="btnAlbumShowContainer" class="album-btn__container">
+                    <button id="btnAlbumShow" class="btn btn_long btn_absolute">Посмотреть все</button>
+                </div>
+                <div class="grid__dropdown-inner">
+                    <div class="grid__wrapper_dropdown grid-responsive">
+                        <div id="drop-down-grid-0"></div>
+                        <div id="drop-down-grid-1"></div>
+                        <div id="drop-down-grid-2"></div>
+                        <div id="drop-down-grid-3"></div>
+                        <div id="drop-down-grid-4"></div>
+                        <div id="drop-down-grid-5"></div>
+                        <div id="drop-down-grid-6"></div>
+                        <div id="drop-down-grid-7"></div>
+                        <div id="drop-down-grid-8"></div>
+                        <div id="drop-down-grid-9"></div>
+                        <div id="drop-down-grid-10"></div>
+                        <div id="drop-down-grid-11"></div>
+                        <div id="drop-down-grid-12"></div>
+                        <div id="drop-down-grid-13"></div>
+                        <div id="drop-down-grid-14"></div>
+                        <div id="drop-down-grid-15"></div>
+                        <div id="drop-down-grid-16"></div>
+                        <div id="drop-down-grid-17"></div>
+                        <div id="drop-down-grid-18"></div>
+                        <div id="drop-down-grid-19"></div>
+                        <div id="drop-down-grid-20"></div>
+                      </div>
+                      <div id="btnAlbumHideContainer" class="album-btn__container_hide__section">
+                        <button id="btnAlbumHide" class="btn btn_long">Скрыть</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="section--5" class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <h3 class="section__title section__title_footer">Наше место</h3>
+                    <div class="footer__text">
+                        <div class="footer__contact">
+                            <a href="https://2gis.ru/kurgan/search/%D0%B3%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9/firm/70000001083415355/65.34347%2C55.4362" target="_blank">
+                                Адрес: <span>г. Курган, Максима Горького 63</span>
+                            </a>
+                        </div>
+                        <div class="footer__contact">
+                            <a href="https://wa.me/+79128355755" target="_blank">
+                                Whatsapp: <span>+7 (912) 835-57-55</span>
+                            </a>
+                        </div>
+                        <div class="footer__contact">
+                            <div>Время работы:</div>
+                            <div class="work-time">Вс-Чт: 12:00 - 01:00</div>
+                            <div class="work-time">Пт-Сб: 12:00 - 03:00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gorkiy/10833429255/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Горький</a><a href="https://yandex.ru/maps/53/kurgan/category/hookah_lounge/34866769160/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кальян-бар в Кургане</a><a href="https://yandex.ru/maps/53/kurgan/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Ресторан в Кургане</a><iframe src="https://yandex.ru/map-widget/v1/?ll=65.343095%2C55.435907&mode=search&oid=10833429255&ol=biz&z=16.53" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal window -->
+    <div class="popup">
+        <div class="popup__inner">
+            <div class="popup__item">
+                <div class="popup__content">
+                    <div class="popup__close">
+                        <span></span>
+                    </div>
+                    <h2 class="popup__title">Забронировать столик</h2>
+                    <div class="popup__text">Вы можете позвонить по нашему номеру, либо написать на Whatsapp</div>
+                    <div class="contact__link">
+                        <a href="https://wa.me/+79128355755" target="_blank">Написать на Whatsapp</a>
+                    </div>
+                    <div class="contact__link">
+                        <a href="tel:+79128355755">Позвонить нам</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn-scroll-to-top">
+        <img src="src/assets/icons/arrow/icon-arrow-up-50.png" alt="">
+    </button>
+
+    <script src="src/js/slider.js"></script>
+    <script src="src/js/tabs.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/menu.js"></script>
+</body>
+</html>

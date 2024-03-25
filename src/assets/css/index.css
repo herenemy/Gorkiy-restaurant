@@ -1,0 +1,79 @@
+:root {
+    --font-nunito: "Nunito", sans-serif;;
+    --font-noto-display: "Noto Serif Display", serif;
+}
+
+body {
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+}
+
+.body_hidden {
+    overflow: hidden;
+}
+
+.section {
+    padding-bottom: 130px;
+    background-color: #000;
+}
+
+.section_about {
+    padding-top: 130px;
+}
+
+.section_menu{
+    position: relative;
+}
+
+.section_reserv {
+    padding: 130px 0;
+}
+
+.appearance-section {
+    transition: all 1s;
+}
+
+.section_hidden {
+    opacity: 0;
+    transform: translateY(9rem); 
+}
+
+.container {
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section__title {
+    font-family: var(--font-noto-display);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.section__title_about {
+    margin-bottom: 60px;
+}
+
+.section__title_reserv {
+    margin-bottom: 25px;
+}
+
+/* Scroll-bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.menu-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
